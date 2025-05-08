@@ -1,4 +1,9 @@
-.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
   text-transform: none !important;
 }
 
@@ -12,4 +17,9 @@
   background-color: rgba(0, 0, 0, 0.2) !important;
   border-radius: 8px !important;
   padding: 0 8px !important;
+}
+
+table.editors-diffs {
+  font-size: 0.5em !important;
+  border-collapse: collapse !important;
 }
