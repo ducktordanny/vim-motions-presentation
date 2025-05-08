@@ -14,6 +14,8 @@ Tags: #vim #vimmotions #neovim #vi #keyboardonly
 
 ## Topics, and content
 
+> The title and description have some Star Wars references -> Should have a few SW images and gifs in the slides. (Star Wars plugin)
+
 ### Introduction
 
 What's Vi/Vim/NeoVim/Vim Motions? What's the difference?
