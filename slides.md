@@ -107,13 +107,17 @@ These are editors
 
 Normal, Insert, Visual, Command, Terminal
 
-#### Moving around:
-
-`h`, `j`, `k`, `l` (more presented irl)
-
 #### Switch between modes
 
 `i`, `v`, `:`, `:term`, `<Esc>`, etc.
+
+#### Moving around:
+
+Basic: `h`, `j`, `k`, `l`
+
+Search: `/`
+
+More: `w`, `e`, `b`, `gg`, `G`, `f`, `t`, `<C-d>` ...
 
 ===
 
@@ -123,7 +127,33 @@ Most importantly! How to _exit_? How to _save_?
 
 <img alt="Lemme out meme" src="./assets/3_2_lemme_out.jpg" width="300" />
 
-`:q`, `:q!`, `:qa`, `:w`, `:wa`, `:wq`
+`:q`, `:q!`, `:qa!`, `:qa`, `:w`, `:wa`, `:wq`
+
+===
+
+### Basics
+
+Other text manipulations
+
+- `d`, `x`, `c`
+
+Comment (Nvim 0.10)
+
+- `gcc`
+
+Undo, redo
+
+- `u`, `<C-r>`
+
+===
+
+### Next level
+
+Select, cut, delete, copy, etc. inside and around characters
+
+`ci<character>`, `di<character>`, `yi<character>`
+
+`ca<character>`, `da<character>`, `ya<character>`
 
 ===
 
@@ -155,6 +185,7 @@ Very powerful and have many options
 - Normal command: `:norm`
 - Multi-line editing: `<C-v>` + `I`/`A`
 - Quick fix list, and `:cdo`
+- Listing trick `g<C-a>`
 
 ---
 
