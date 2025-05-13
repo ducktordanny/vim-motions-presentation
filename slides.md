@@ -28,6 +28,8 @@ These are editors
 - Vim: Vi IMproved
 - NeoVim: Modern fork of Vim
 
+![explaining gif](./assets/2_3_explaining.gif)
+
 ===
 
 ### Differences
